@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChargeBilling</class>
+ <widget class="QDialog" name="ChargeBilling">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>762</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>762</width>
+    <height>383</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>300</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_billinfo" native="true">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>611</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label_per_2">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>160</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>%</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_endSOC">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>150</y>
+      <width>113</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>160</y>
+      <width>74</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>服 务 费：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>74</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始时间：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>74</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>充电电费：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_beginSOC">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>110</y>
+      <width>113</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>余     额：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_servicecharge">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>150</y>
+      <width>111</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>150</y>
+      <width>73</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>结束SOC：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_endelectricity">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>70</y>
+      <width>113</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>110</y>
+      <width>74</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>起始SOC：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_begintime">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>30</y>
+      <width>113</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_chargetimes">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>111</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_electricityfees">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>110</y>
+      <width>111</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>190</y>
+      <width>73</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>停机原因：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_chargeelectricity">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>70</y>
+      <width>111</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>70</y>
+      <width>74</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>结束电量：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>80</y>
+      <width>74</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>充电电量：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_KWh_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>80</y>
+      <width>33</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KWh</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>充电时间：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_per">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>120</y>
+      <width>16</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>%</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_balance">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>190</y>
+      <width>111</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_KWh_3">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>80</y>
+      <width>33</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KWh</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_stopreason">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>190</y>
+      <width>113</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

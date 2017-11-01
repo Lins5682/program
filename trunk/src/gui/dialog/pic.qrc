@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/pic">
+        <file>image/background01.png</file>
+        <file>image/content.png</file>
+        <file>image/swingcard.png</file>
+        <file>image/title.png</file>
+        <file>image/err.png</file>
+        <file>image/ok.png</file>
+        <file>image/waring.png</file>
+        <file>image/battery.png</file>
+        <file>image/shelf.png</file>
+        <file>image/pwdinput.png</file>
+        <file>image/insiderlogo.png</file>
+        <file>image/password.png</file>
+        <file>image/password_press.png</file>
+        <file>image/tab.png</file>
+        <file>image/button_default.png</file>
+        <file>image/button_press.png</file>
+        <file>image/help.png</file>
+        <file>image/net.png</file>
+        <file>image/phone.png</file>
+        <file>image/swaring.png</file>
+        <file>image/left.png</file>
+        <file>image/right.png</file>
+    </qresource>
+</RCC>

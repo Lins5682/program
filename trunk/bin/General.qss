@@ -1,0 +1,181 @@
+qyMainWindow
+{
+        border-image: url(./image/background01.png);
+}
+QLabel#titleTips
+{
+    image: url(./image/title.png);
+}
+QLabel#titleText
+{
+    font: bold 31pt "微软雅黑";
+    color:blue;
+}
+QLabel#prompt
+{
+    font: bold 19pt "微软雅黑";
+    color:blue;
+}
+QTabBar::tab
+{
+        font: Bold 15pt "微软雅黑";
+        color: #dcdddd;
+	outline: none;
+        border-image: transparent;
+        width: 150 px;
+        height: 35 px;
+        background: transparent;
+        position: absolute;
+}
+QTabBar::tab:selected
+{
+        font: Bold 15pt "微软雅黑";
+        color: #104e86;
+	outline: none;
+        border-image: url(./image/tab.png);
+        width: 150 px;
+        height: 35 px;
+        background: transparent;
+        position: absolute;
+}
+QLabel#icCard
+{
+        outline:none;
+        image: url(./image/swingcard.png);
+}
+qyDialogBase
+{
+        border: 0px;
+        border-image: url(./image/content.png);
+}
+QPushButton#network
+{
+
+        outline: none;
+        border-image: url(./image/net.png)
+}
+QPushButton#network:pressed
+{
+
+        top: -1;
+        left: -1;
+}
+
+QPushButton#help
+{
+        font: normal 25pt "微软雅黑";
+        color: #104e86;
+        outline: none;
+        border-image: url(./image/help.png);
+}
+QPushButton#help:pressed
+{
+        top: -1;
+        left: -1;
+}
+
+QPushButton#warning
+{
+        font: normal 25pt "微软雅黑";
+        color: #104e86;
+        outline: none;
+        border-image: url(./image/swaring.png);
+}
+
+QPushButton#warning:pressed
+{
+        top:-1;
+        left:-1;
+}
+QLabel#companyLogo
+{
+        border-image: url(./image/insiderlogo.png);
+}
+
+QLabel#phoneIcon
+{
+        border-image: url(./image/phone.png);
+}
+
+QPushButton#ensurePasswd:pressed,#cancelPasswd:pressed,#ensureAccMsg:pressed
+{
+    font: normal 25pt "微软雅黑";
+    color: #104e86;
+    outline: none;
+    border-image: url(:/pic/image/button_default.png);
+}
+QPushButton#ensurePasswd,#cancelPasswd,#ensureAccMsg
+{
+    font: normal 25pt "微软雅黑";
+    color:rgb(255,255,255);
+    outline: none;
+    border-image: url(:/pic/image/button_press.png);
+}
+
+QPushButton#keypushbutton:pressed
+{
+    font: normal 25pt "微软雅黑";
+    color: #104e86;
+    outline: none;
+    border-image: url(:/pic/image/password.png);
+}
+QPushButton#keypushbutton
+{
+    font: normal 25pt "微软雅黑";
+    color:rgb(255,255,255);
+    outline: none;
+    border-image: url(:/pic/image/password_press.png);
+}
+
+
+
+QLineEdit,QLabel
+{
+     font: normal 15pt "微软雅黑";
+     color:blue;
+}
+QLabel#dataTimeText,#phoneText
+{
+     font: normal 15pt "微软雅黑";
+     color:white;
+}
+QLabel#tipsTxt
+{
+     font: bold 36pt "微软雅黑";
+     color:blue;
+}
+QLineEdit
+{
+     color:blue;
+     background-color: white;
+     text-align:left;
+}
+QLabel#titleHint
+{
+     font: bold;
+     color:green;
+}
+QProgressBar
+{
+        border: none;
+        background: rgb(210, 225, 240);
+}
+QProgressBar::chunk
+{
+        background: rgb(0, 160, 230);
+}
+QLabel#tipsImg[type="0"]
+{
+       border-image: url(:/pic/image/waring.png);
+
+}
+QLabel#tipsImg[type="1"]
+{
+       border-image: url(:/pic/image/waring.png);
+
+}
+QLabel#tipsImg[type="2"]
+{
+       border-image: url(:/pic/image/waring.png);
+
+}
